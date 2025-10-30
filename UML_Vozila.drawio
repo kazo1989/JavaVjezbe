@@ -1,0 +1,76 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/138.0.0.0 Safari/537.36 OPR/122.0.0.0 (Edition std-2)" version="28.2.8">
+  <diagram name="Page-1" id="eqG3_p7JiX6hEpiDeViZ">
+    <mxGraphModel dx="997" dy="574" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-1" value="Vozilo" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="30" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-2" value="&lt;div&gt;- proizvodjac : String&lt;/div&gt;&lt;div&gt;- godinaProizvodnje : int&lt;/div&gt;&lt;div&gt;- kubikaza : int&lt;/div&gt;&lt;div&gt;- boja : String&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RUQEdc-SFjEWuuv2WT2I-1">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RUQEdc-SFjEWuuv2WT2I-1">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-4" value="&lt;div&gt;+ Vozilo(proizvodjac:String, godinaProizvodnje:int, kubikaza:int, boja:String)&lt;/div&gt;&lt;div&gt;+ getProizvodjac() : String&lt;/div&gt;&lt;div&gt;+ setProizvodjac(p:String) : void&lt;/div&gt;&lt;div&gt;+ getGodinaProizvodnje() : int&lt;/div&gt;&lt;div&gt;+ setGodinaProizvodnje(g:int) : void&lt;/div&gt;&lt;div&gt;+ getKubikaza() : int&lt;/div&gt;&lt;div&gt;+ setKubikaza(k:int) : void&lt;/div&gt;&lt;div&gt;+ getBoja() : String&lt;/div&gt;&lt;div&gt;+ setBoja(b:String) : void&lt;/div&gt;&lt;div&gt;+ cijenaRegistracije() : double&lt;/div&gt;&lt;div&gt;+ ispisi() : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RUQEdc-SFjEWuuv2WT2I-1">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-5" value="Automobil" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="650" y="200" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-6" value="&lt;div&gt;- proizvodjac : String&lt;/div&gt;&lt;div&gt;- godinaProizvodnje : int&lt;/div&gt;&lt;div&gt;- kubikaza : int&lt;/div&gt;&lt;div&gt;- boja : String&lt;/div&gt;&lt;div&gt;&lt;div&gt;- brojVrata : int&lt;/div&gt;&lt;div&gt;- tipMotora : String&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RUQEdc-SFjEWuuv2WT2I-5">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-7" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RUQEdc-SFjEWuuv2WT2I-5">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-8" value="&lt;div&gt;&lt;div&gt;+ Automobil(proizvodjac:String, godinaProizvodnje:int, kubikaza:int, boja:String, brojVrata:int, tipMotora:String)&lt;/div&gt;&lt;div&gt;+ getBrojVrata() : int&lt;/div&gt;&lt;div&gt;+ setBrojVrata(v:int) : void&lt;/div&gt;&lt;div&gt;+ getTipMotora() : String&lt;/div&gt;&lt;div&gt;+ setTipMotora(t:String) : void&lt;/div&gt;&lt;div&gt;+ cijenaRegistracije() : double&lt;/div&gt;&lt;div&gt;+ ispisi() : void&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RUQEdc-SFjEWuuv2WT2I-5">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-9" value="Kamion" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="200" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-10" value="&lt;div&gt;- proizvodjac : String&lt;/div&gt;&lt;div&gt;- godinaProizvodnje : int&lt;/div&gt;&lt;div&gt;- kubikaza : int&lt;/div&gt;&lt;div&gt;- boja : String&lt;/div&gt;&lt;div&gt;&lt;div&gt;- kapacitetTereta : double&lt;/div&gt;&lt;div&gt;- prikolica : boolean&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RUQEdc-SFjEWuuv2WT2I-9">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-11" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RUQEdc-SFjEWuuv2WT2I-9">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-12" value="&lt;div&gt;+ Kamion(proizvodjac:String, godinaProizvodnje:int, kubikaza:int, boja:String, kapacitetTereta:double, prikolica:boolean)&lt;/div&gt;&lt;div&gt;+ getKapacitetTereta() : double&lt;/div&gt;&lt;div&gt;+ setKapacitetTereta(k:double) : void&lt;/div&gt;&lt;div&gt;+ hasPrikolica() : boolean&lt;/div&gt;&lt;div&gt;+ setPrikolica(p:boolean) : void&lt;/div&gt;&lt;div&gt;+ cijenaRegistracije() : double&lt;/div&gt;&lt;div&gt;+ ispisi() : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RUQEdc-SFjEWuuv2WT2I-9">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-13" value="Kombi" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="200" width="160" height="86" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-14" value="&lt;div&gt;- proizvodjac : String&lt;/div&gt;&lt;div&gt;- godinaProizvodnje : int&lt;/div&gt;&lt;div&gt;- kubikaza : int&lt;/div&gt;&lt;div&gt;- boja : String&lt;/div&gt;&lt;div&gt;&lt;div&gt;- kapacitetPutnika : int&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RUQEdc-SFjEWuuv2WT2I-13">
+          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-15" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="RUQEdc-SFjEWuuv2WT2I-13">
+          <mxGeometry y="52" width="160" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-16" value="&lt;div&gt;+ Kombi(proizvodjac:String, godinaProizvodnje:int, kubikaza:int, boja:String, kapacitetPutnika:int)&lt;/div&gt;&lt;div&gt;+ getKapacitetPutnika() : int&lt;/div&gt;&lt;div&gt;+ setKapacitetPutnika(k:int) : void&lt;/div&gt;&lt;div&gt;+ cijenaRegistracije() : double&lt;/div&gt;&lt;div&gt;+ ispisi() : void&lt;/div&gt;" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="RUQEdc-SFjEWuuv2WT2I-13">
+          <mxGeometry y="60" width="160" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-17" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="RUQEdc-SFjEWuuv2WT2I-5" target="RUQEdc-SFjEWuuv2WT2I-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="350" y="300" as="sourcePoint" />
+            <mxPoint x="510" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-18" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="RUQEdc-SFjEWuuv2WT2I-9" target="RUQEdc-SFjEWuuv2WT2I-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="520" y="60" as="sourcePoint" />
+            <mxPoint x="680" y="60" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="RUQEdc-SFjEWuuv2WT2I-19" value="Extends" style="endArrow=block;endSize=16;endFill=0;html=1;rounded=0;" edge="1" parent="1" source="RUQEdc-SFjEWuuv2WT2I-13" target="RUQEdc-SFjEWuuv2WT2I-1">
+          <mxGeometry width="160" relative="1" as="geometry">
+            <mxPoint x="390" y="170" as="sourcePoint" />
+            <mxPoint x="520" y="200" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
